@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdooldata sub</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            background: rgb(240, 236, 236);
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            background-color: rgb(214, 0, 0);
+            
+        }
+        .wrrap {
+            background-color: white;
+            border-radius: 30px 30px 0px 0px;
+        }
+        .content {
+            margin: auto 30px;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        h1 {
+            color:  white;
+            font-weight: bolder;
+            margin-left: 30px ;
+            padding: 20px;
+        }
+        h2 {
+            color: red;
+            margin-bottom: 0;
+        }
+        .content div {
+            font-weight: 700;
+            margin: 5px;
+        } 
+        input {
+            width: 300px;
+            padding: 7px;
+            border-radius: 13px;
+            background: whitesmoke;
+            border-color: cornflowerblue;
+            margin: 5px;
+        }
+        p {
+            margin-top: 4px;
+            margin-bottom: 20px;
+        }
+        button {
+            width: 320px;
+            padding: 9px;
+            border-radius: 13px;
+            background: blue;
+             margin: 5px;
+             color: white;
+             font-weight: bolder;
+             font-size: 15px;
+        }
+        .state {
+            border-color: black;
+            padding: 10px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: 650;
+        }
+        span {
+            color: blue;
+        }
+        .Link {
+            font-size: 13px;
+              font-weight: 500;
+        }
+        button:hover {
+            cursor: pointer;
+            background-color: aquamarine;
+            color: black;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <div class="wrrap">   
+            <div class="content">
+                <h2>ABDOOLDATA</h2>
+                <P>Hello there, register to acceess all 
+                    our servoce!</P>
+                <form action="" method="get">
+                    <div>
+                        First Name 
+                    </div>
+                    <input type="text" name="name" id="First Name" placeholder="First Name">
+                    <div>
+                        Last name
+                    </div>
+                    <input type="text" name="name" id="Last Name" placeholder="Last Name">
+                    <div>
+                        Phone Number
+                    </div> 
+                    <input type="tel" name="number" id="Phone number" placeholder="8101185851" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+                    <div>
+                        Email <Address></Address>
+                    </div>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <div>
+                        State
+                    </div>
+                    <input type="text" name="State" id="State" class="state" list="state">
+                    <datalist id="state">
+                        
+                        <option value="Abia">
+                        <option value="Abekuta">
+                        <option value="Adamawa">
+                        <option value="Yola">
+                        <option value="Akwa Ibom">
+                        <option value="Benue">
+                        <option value="Jigawa">
+                        <option value="Birnin Kebbi">
+                        <option value="Plateua">
+                        <option value="Jos">
+                    </datalist>
+                    <br><button>Continue</button><br>
+                    <a href="#">Already Have an Account? <span>Login</span></a><br>
+                    <a href="#" class="Link">Licensed By Abdool Web LTD</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
